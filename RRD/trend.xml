@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rrd SYSTEM "https://oss.oetiker.ch/rrdtool/rrdtool.dtd">
+<!-- Round Robin Database Dump -->
+<rrd>
+	<version>0003</version>
+	<step>60</step> <!-- Seconds -->
+	<lastupdate>1634021881</lastupdate> <!-- 2021-10-12 01:58:01 CDT -->
+
+	<ds>
+		<name> CPUload </name>
+		<type> GAUGE </type>
+		<minimal_heartbeat>600</minimal_heartbeat>
+		<min>NaN</min>
+		<max>NaN</max>
+
+		<!-- PDP Status -->
+		<last_ds>143444</last_ds>
+		<value>2.8108081310e+05</value>
+		<unknown_sec> 0 </unknown_sec>
+	</ds>
+
+	<!-- Round Robin Archives -->
+	<rra>
+		<cf>AVERAGE</cf>
+		<pdp_per_row>1</pdp_per_row> <!-- 60 seconds -->
+
+		<params>
+		<xff>5.0000000000e-01</xff>
+		</params>
+		<cdp_prep>
+			<ds>
+			<primary_value>1.3329744508e+05</primary_value>
+			<secondary_value>NaN</secondary_value>
+			<value>NaN</value>
+			<unknown_datapoints>0</unknown_datapoints>
+			</ds>
+		</cdp_prep>
+		<database>
+			<!-- 2021-10-12 01:35:00 CDT / 1634020500 --> <row><v>7.2778314267e+01</v></row>
+			<!-- 2021-10-12 01:36:00 CDT / 1634020560 --> <row><v>9.2008680400e+01</v></row>
+			<!-- 2021-10-12 01:37:00 CDT / 1634020620 --> <row><v>9.2799172550e+01</v></row>
+			<!-- 2021-10-12 01:38:00 CDT / 1634020680 --> <row><v>6.0268515583e+01</v></row>
+			<!-- 2021-10-12 01:39:00 CDT / 1634020740 --> <row><v>7.0206257833e+01</v></row>
+			<!-- 2021-10-12 01:40:00 CDT / 1634020800 --> <row><v>5.0249111250e+01</v></row>
+			<!-- 2021-10-12 01:41:00 CDT / 1634020860 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:42:00 CDT / 1634020920 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:43:00 CDT / 1634020980 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:44:00 CDT / 1634021040 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:45:00 CDT / 1634021100 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:46:00 CDT / 1634021160 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:47:00 CDT / 1634021220 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:48:00 CDT / 1634021280 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:49:00 CDT / 1634021340 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:50:00 CDT / 1634021400 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:51:00 CDT / 1634021460 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:52:00 CDT / 1634021520 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:53:00 CDT / 1634021580 --> <row><v>NaN</v></row>
+			<!-- 2021-10-12 01:54:00 CDT / 1634021640 --> <row><v>1.2324346785e+05</v></row>
+			<!-- 2021-10-12 01:55:00 CDT / 1634021700 --> <row><v>1.4112868189e+05</v></row>
+			<!-- 2021-10-12 01:56:00 CDT / 1634021760 --> <row><v>1.4443892368e+05</v></row>
+			<!-- 2021-10-12 01:57:00 CDT / 1634021820 --> <row><v>1.3899312171e+05</v></row>
+			<!-- 2021-10-12 01:58:00 CDT / 1634021880 --> <row><v>1.3329744508e+05</v></row>
+		</database>
+	</rra>
+</rrd>
